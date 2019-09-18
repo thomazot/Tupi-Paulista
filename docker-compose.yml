@@ -40,6 +40,8 @@ services:
       - db
     container_name: wp-tupipaulista-pmd
     image: phpmyadmin/phpmyadmin
+    volumes:
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     expose:
       - 80
     networks:

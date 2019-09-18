@@ -11,8 +11,8 @@ services:
       - wordpress
     environment:
       MYSQL_ROOT_PASSWORD: tupi123456paulista
-      MYSQL_DATABASE: ${DB_DATABASE}
-      MYSQL_USER: ${DB_USER}
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
       MYSQL_PASSWORD: tupi123456paulista
 
   wordpress:
